@@ -3,9 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { GameComponent } from './game/game.component';
+import { ZapatillasComponent } from './zapatillas/zapatillas.component';
+import { CursosComponent } from './cursos/cursos.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+  	GameComponent,
+  	ZapatillasComponent,
+  	CursosComponent
   ],
   imports: [
     BrowserModule
