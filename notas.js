@@ -23,6 +23,44 @@ los componentes se interpolan con las dobles llaves
 
 
 
+// Iniciar proyecto de angular
+
+1- Actualizar angular/cli
+
+1.1- Borrar angular
+npm unistall -g @angular/cli
+npm cache verify
+npm cache clear --force
+
+1.2- Instalar angular
+npm install -g @angular/cli
+
+comandos mas importantes: angularcli.io
+
+2- Crear un nuevo proyecto de angular:
+ng new name-proyect
+
+3- Arrangar aplicacion angular desde el servidor 
+			//con --port=12381923 
+ng serve
+
+localhost por defecto es 4200
+
+ingreso al directirio: cd /cygdrive/c
+
+Fuente: https://www.enmimaquinafunciona.com/pregunta/34995/como-acceder-a-diferentes-directorios-fuera-de-cygwin-directorios
+AHORA COMO GENERAR COMPONENTES DESDE LA CONSOLA!
+
+Scaffolding: generar codigo de manera automatica
+SE DEBE UTILIZAR LA CONSOLA DE COMANDOS POR DEFECTO DEL SO
+
+
+ng generate component nombre-componente
+antes del nombre agrega app-
+
+Continuar en Hooks/eventos ciclo de vida 
+
+
 
 
 
