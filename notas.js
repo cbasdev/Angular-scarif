@@ -59,9 +59,20 @@ ng generate component nombre-componente
 antes del nombre agrega app-
 
 Continuar en Hooks/eventos ciclo de vida 
+Significa
+Cambios en componente, iniciar componente
+ngOnInit() se ejecuta nada mas cargar componente
+DoCheck() se ejecuta cuando se ejecuta un cambio
+OnDestroy() se ejecuta cuando se borra un componente
 
+//MODELOS:
 
+ Crear un archivo.ts en singular clases e importar
 
+ //DIRECTIVAS
+
+son atributos o nuevas etiquetas nuevas que tenemos en nuestra vista html
+es la etiqueta de un componente, tambien hay directivas para hacer estructuras de control, para hacer eventos databinding 
 
 
 

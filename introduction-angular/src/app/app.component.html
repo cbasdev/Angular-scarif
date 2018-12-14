@@ -1,11 +1,14 @@
 
-<div>
+<div [ngStyle] = "{'background':config.fondo}">
   <h1>
     Welcome to {{ title }}!
   </h1>
-  <p>Introduction to angular</p>
+  <p>{{ descripcion }}</p>
 
-  <game></game>
-  <zapatillas></zapatillas>
+<!--
+  <button (click)="ocultarVideojuegos()">Ocultar</button>
+  <game *ngIf="mostrar_videojuegos"></game>
   <cursos></cursos>
+-->
+  <zapatillas></zapatillas>
 </div>
