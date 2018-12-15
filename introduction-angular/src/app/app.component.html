@@ -5,10 +5,26 @@
   </h1>
   <p>{{ descripcion }}</p>
 
+  <nav>
+  	
+  	<a [routerLink]="['/']"[routerLinkActive]="['active']">Home</a>
+  	&nbsp; <!--Espaciado-->
+  	<a [routerLink]="['/zapatillas']"[routerLinkActive]="['active']">Zapatillas</a>
+  	&nbsp;
+
+  	<a [routerLink]="['/game']"[routerLinkActive]="['active']">Games</a>
+  	&nbsp;
+
+  	<a [routerLink]="['/cursos']"[routerLinkActive]="['active']">Cursos</a>
+  	&nbsp;
+
+
+  </nav>
+
 <!--
   <button (click)="ocultarVideojuegos()">Ocultar</button>
   <game *ngIf="mostrar_videojuegos"></game>
   <cursos></cursos>
 -->
-  <zapatillas></zapatillas>
+ <router-outlet></router-outlet>
 </div>
