@@ -164,4 +164,6 @@ el router nos incluye un atributo para navegar sin recargar
 
 [routerLink]="" [routerLinkActive]="['active']" active es una clase css
 
+
+Repaso...
 */
