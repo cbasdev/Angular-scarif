@@ -164,6 +164,6 @@ el router nos incluye un atributo para navegar sin recargar
 
 [routerLink]="" [routerLinkActive]="['active']" active es una clase css
 
-
-Repaso...
+El modulo de routing tiene problemas ya que el error 404 tiene que ser una cadena
+por lo tanto debe tener comillas
 */
