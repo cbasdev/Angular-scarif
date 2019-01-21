@@ -1,4 +1,8 @@
-<p>
-  cursos works!
-  <button (click)="redirigir()">Game</button>
-</p>
+<h1>
+  Componente de cursos
+</h1>
+
+<button (click)="redirigir()">Llevame a Zapatillas</button>
+
+<h3 *ngIf="nombre">Bienvenido {{nombre}}</h3>
+<h3 *ngIf="followers">Tus seguidores son: {{followers}}</h3>

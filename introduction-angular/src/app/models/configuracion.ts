@@ -1,6 +1,6 @@
 export var Configuracion = {
-	color:  "red",
+	color: "red",
 	fondo: "#eee",
-	titulo: "Aplicacion con angular",
-	descripcion: "sintaxis angular XD"
+	titulo: "Master en JavaScript y Angular",
+	descripcion: "Aprendiendo Angular con Víctor Robles - victorroblesweb"
 };

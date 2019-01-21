@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, Params } from "@angular/router";
+import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'cursos',
@@ -8,21 +8,26 @@ import { Router, ActivatedRoute, Params } from "@angular/router";
 })
 export class CursosComponent implements OnInit {
 	public nombre: string;
-  constructor(
-  	private _route: ActivatedRoute,
-  	private _router: Router
-  	) { }
+	public followers: number;
 
-  ngOnInit() {
+	constructor(
+		private _route: ActivatedRoute,
+		private _router: Router
+	){ }
 
-  	this._route.params.subscribe((params: Params)=>{
-  			this.nombre = params.nombre;
-  			console.log(this.nombre);
-  		});
-  }
+	ngOnInit() {
+		this._route.params.subscribe((params: Params) => {
+			this.nombre = params.nombre;
+			this.followers = +params.followers;
 
-  redirigir(){
-    this._router.navigate(["/game"]);
-  }
+			if(this.nombre == 'ninguno'){
+				this._router.navigate(['/home']);
+			}
+		});
+	}
+
+	redirigir(){
+		this._router.navigate(['/zapatillas']);
+	}
 
 }
