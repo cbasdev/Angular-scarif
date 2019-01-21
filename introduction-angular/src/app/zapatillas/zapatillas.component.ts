@@ -7,6 +7,7 @@ import { Zapatilla } from "../models/zapatilla";
 
 export class ZapatillasComponent implements OnInit{
 	public titulo: string;
+	public marcas;
 	public zapatillas: Array<Zapatilla>;
 	constructor(){
 		this.marcas = new Array();
@@ -16,6 +17,9 @@ export class ZapatillasComponent implements OnInit{
 			new Zapatilla("Vans rell", "Nike", "Blanco", 90, true)
 		
 		];
+	}
+	ngOnInit(){
+
 	}
 
 
