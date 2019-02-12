@@ -31,6 +31,10 @@ los componentes se interpolan con las dobles llaves
 
 1- Actualizar angular/cli
 
+ng --version
+npm install --save-dev @angular/cli@latest
+ng --version
+
 1.1- Borrar angular
 npm unistall -g @angular/cli
 npm cache verify
